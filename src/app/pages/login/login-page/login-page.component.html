@@ -12,7 +12,8 @@
                 <mat-form-field>
                     <input matInput placeholder="Password" formControlName="password">
                 </mat-form-field>
-                <button mat-stroked-button type="submit" [disabled]="!loginForm.valid" style="width:100%">Login</button>
+                <button mat-stroked-button type="submit" [disabled]="!loginForm.valid" style="width:100%; margin-bottom: 10px;">Login</button>
+                <button mat-stroked-button type="register" style="width:100%" [routerLink]="['/register']">Register</button>
             </form>
         </mat-card-content>
     </mat-card>

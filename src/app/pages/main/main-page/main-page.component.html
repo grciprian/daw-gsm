@@ -2,13 +2,13 @@
     <mat-card class="example-card">
         <mat-card-header>
             <div mat-card-avatar class="material-icons">phonelink</div>
-            <mat-card-title>Gadgets</mat-card-title>
+            <mat-card-title>Gadgets(if you have any gadget, select one)</mat-card-title>
         </mat-card-header>
         <mat-card-content>
             <app-gadgets-page (gadgetSelectEvent)="receiveSelectedGadgetEvent($event)"></app-gadgets-page>
         </mat-card-content>
     </mat-card>
-    <mat-card class="example-card">
+    <mat-card class="example-card" *ngIf="selectedGadget">
         <mat-card-header>
             <div mat-card-avatar class="material-icons">book</div>
             <mat-card-title>Contracts</mat-card-title>
