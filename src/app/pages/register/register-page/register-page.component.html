@@ -1,0 +1,12 @@
+<form class="example-container" autocomplete="off" [formGroup]="registerForm" (ngSubmit)="onSubmitRegisterForm()">
+    <mat-form-field>
+        <input matInput placeholder="Email" formControlName="email">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Password" formControlName="password">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Confirm Password" formControlName="confirmPassword">
+    </mat-form-field>
+    <button mat-stroked-button type="submit" [disabled]="!registerForm.valid" style="width:100%">Register</button>
+</form>

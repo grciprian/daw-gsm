@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>Add an employee</h1>
+<div mat-dialog-content>
+    <form class="example-container" autocomplete="off" [formGroup]="addEmployeeForm">
+        <mat-form-field>
+            <input matInput placeholder="Email" formControlName="email">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Phone Number" formControlName="phoneNumber">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Password" formControlName="password">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Confirm Password" formControlName="confirmPassword">
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onCancel()">Cancel</button>
+    <button mat-button (click)="onSubmitAddEmployeeForm()" [disabled]="!addEmployeeForm.valid">Add</button>
+</div>

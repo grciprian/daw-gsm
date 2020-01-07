@@ -1,3 +1,5 @@
+import { Router } from '@angular/router';
+import { AuthService } from 'src/app/server-connection/services/auth.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'gsm-frontend';
+  
+  constructor(
+    public router: Router,
+    public authService: AuthService
+    ) {}
+
 }

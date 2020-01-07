@@ -1,0 +1,19 @@
+<div class="c-container">
+    <mat-card class="example-card">
+        <mat-card-header>
+            <div mat-card-avatar class="material-icons">account_circle</div>
+            <mat-card-title>Log In</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <form class="example-container" autocomplete="on" [formGroup]="loginForm" (ngSubmit)="onSubmitLoginForm()">
+                <mat-form-field>
+                    <input matInput placeholder="Email" formControlName="email">
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Password" formControlName="password">
+                </mat-form-field>
+                <button mat-stroked-button type="submit" [disabled]="!loginForm.valid" style="width:100%">Login</button>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>Add a gadget</h1>
+<div mat-dialog-content>
+    <form class="example-container" autocomplete="off" [formGroup]="addGadgetForm">
+        <mat-form-field>
+            <input matInput placeholder="Name" formControlName="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Description" formControlName="description">
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onCancel()">Cancel</button>
+    <button mat-button (click)="onSubmitAddGadgetForm()" [disabled]="!addGadgetForm.valid">Add</button>
+</div>

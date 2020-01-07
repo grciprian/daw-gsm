@@ -1,0 +1,12 @@
+<h1 mat-dialog-title>Add a contract</h1>
+<div mat-dialog-content>
+    <form class="example-container" autocomplete="off" [formGroup]="addContractForm">
+        <mat-form-field>
+            <textarea matInput placeholder="Observations" formControlName="observations"></textarea>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onCancel()">Cancel</button>
+    <button mat-button (click)="onSubmitAddContractForm()" [disabled]="!addContractForm.valid">Add</button>
+</div>
