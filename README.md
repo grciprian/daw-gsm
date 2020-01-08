@@ -20,9 +20,14 @@
 
 ! Nu am tratat validari pe frontend; foarte putin in backend !  
 O parola valida trebuie sa contina tot felul de tipuri de caractere, astfel ca una valida ar fi 123qweQWE!@#  
+Campurile de parola le-am lasat intentionat in clar.
 Pentru orice neintelegere, nu evita sa ma contactezi.  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.  
+
+## Some screenshots :camera:
+
+!(image)[https://i.imgur.com/60OuIeI.png]
 
 ## Development server
 
