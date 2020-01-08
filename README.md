@@ -3,6 +3,8 @@
 ## Description :floppy_disk:
 
   *GSM* reprezinta un proof of concept pentru o platforma prin care un magazin care repara diverse deviceuri isi poate administra *employees*, *customers* si interactiunea dintre acestia pe baza unor *gadgets* si a unor *contracts*.  
+  
+[## Some screenshots :camera:](https://i.imgur.com/60OuIeI.png)  
 
 ## How To :bulb:
 
@@ -24,10 +26,6 @@ Campurile de parola le-am lasat intentionat in clar.
 Pentru orice neintelegere, nu evita sa ma contactezi.  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.  
-
-## Some screenshots :camera:
-
-[Imgur](https://i.imgur.com/60OuIeI.png)
 
 ## Development server
 
