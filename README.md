@@ -27,7 +27,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Some screenshots :camera:
 
-!(image)[https://i.imgur.com/60OuIeI.png]
+[Imgur](https://i.imgur.com/60OuIeI.png)
 
 ## Development server
 
